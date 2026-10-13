@@ -1,13 +1,13 @@
 import sys
 
-def simInt(principal, interest, time):
+def simpInt(principal, interest, time):
     return (principal * interest * time) / 100
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     p = int(sys.argv[1])
     i = int(sys.argv[2])
     t = int(sys.argv[3])
 
-    print("Simple interest: ", simInt(p, i, t))
+    print("Simple interest: ", simpInt(p, i, t))
 
 

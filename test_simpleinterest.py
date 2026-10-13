@@ -1,7 +1,7 @@
-from simpleinterest import simint
+from simpleinterest import simpInt
 
 def test_simpleint_pos():
-    assert simint(20000,8,12) == 19200
+    assert simpInt(20000,8,12) == 19200
 
 def test_simpleint_zer():
-    assert simint(10000,7,0) == 0    
+    assert simpInt(10000,7,0) == 0    
